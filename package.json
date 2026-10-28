@@ -1,0 +1,44 @@
+{
+  "name": "tantuni",
+  "version": "1.0.0",
+  "description": "Tantuni ASCII art, served hot in your terminal.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "bin": {
+    "tantuni": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "cli.js"
+  ],
+  "keywords": [
+    "tantuni",
+    "ascii",
+    "ascii-art",
+    "cli",
+    "food",
+    "turkish",
+    "mersin"
+  ],
+  "author": "0xgani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xgani/tantuni.git"
+  },
+  "homepage": "https://github.com/0xgani/tantuni#readme",
+  "bugs": {
+    "url": "https://github.com/0xgani/tantuni/issues"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
